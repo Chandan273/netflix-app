@@ -53,7 +53,7 @@ const Input:React.FC<InputProps> = ({id, type, value, label, onChange}) => {
                 peer-focus:scale-75
                 peer-focus:-translate-y-3
             ">{label}</label>
-            </div>
+        </div>
     )
 }
 
