@@ -8,7 +8,7 @@ interface InputProps {
     onChange: any;
 }
 
-const Input:React.FC<InputProps> = ({id, type, value, label, onChange}) => {
+const Input:React.FC<InputProps> = ({id, label, type, value, onChange}) => {
     return (
         <div className="relative">
             <input
